@@ -1,0 +1,67 @@
+@media screen and (min-width: 768px) {
+  /* ==============33333333333333333333333=============================================================================== */
+  .flex-text-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 24px) / 2);
+  }
+  .main-two-section {
+    display: inline;
+  }
+  .two-section-text {
+    width: 356px;
+  }
+  /* ==============55555555555555555555=============================================================================== */
+  .customer-flex {
+    column-gap: 24px;
+  }
+  .customer-box {
+    width: 168px;
+    padding: 16px 32px;
+  }
+}
+/* ====================CUSTOMERS================ */
+
+@media screen and (min-width: 1128px) {
+  /* ===========3333333333333333333333333================================================================================= */
+  .advantages-icons {
+    display: flex;
+  }
+  .section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .main-two-section {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: contents;
+    margin-top: 8px;
+  }
+  .two-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-top: 8px;
+  }
+  .main-two-section {
+    text-align: center;
+    margin-top: 32px;
+  }
+  /* ==========5555555555555555555======================================================================================= */
+  .section-five {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .customer-flex {
+    column-gap: 24px;
+    row-gap: 0;
+  }
+  .customer-box {
+    width: 168px;
+    padding: 16px 32px;
+  }
+}
