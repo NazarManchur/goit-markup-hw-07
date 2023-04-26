@@ -23,7 +23,7 @@
     position: relative;
   }
   .menu-link {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
@@ -104,6 +104,8 @@
 
   .flex-text-about {
     display: flex;
+    flex-direction: row;
+    gap: 0;
     flex-wrap: wrap;
     flex-basis: calc((100% - 24px) / 2);
   }
@@ -506,6 +508,12 @@
     padding-bottom: 120px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .flex-photo-worker {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: calc((100% - 72px) / 4);
   }
   /* ==========5555555555555555555======================================================================================= */
   .section-five {
